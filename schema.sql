@@ -2,7 +2,7 @@ CREATE TABLE coffee (
     "id" INTEGER PRIMARY KEY,
     "company" TEXT,
     "state" TEXT,
-    "product" TEXT UNIQUE,
+    "product" TEXT,
     "type" TEXT,
     "category" TEXT
 );
