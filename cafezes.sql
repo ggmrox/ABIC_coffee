@@ -6,3 +6,4 @@ SELECT
     SUM(CASE WHEN certificacao IS NULL OR certificacao = '' THEN 1 ELSE 0 END) AS certificacao_vazios,
     SUM(CASE WHEN categoria IS NULL OR categoria = '' THEN 1 ELSE 0 END) AS categoria_vazios
 FROM temp;
+
