@@ -31,3 +31,9 @@ CREATE VIEW strong AS
     SELECT * FROM coffee
     WHERE "category" LIKE 'Extraforte';
 
+CREATE VIEW preferred AS
+    SELECT * FROM coffee
+    WHERE ("category" LIKE 'Especial' OR "category" LIKE 'Gourmet')
+    AND "state" = 'MG' AND "type" = 'TM'
+    ORDER BY "category", "company";
+
