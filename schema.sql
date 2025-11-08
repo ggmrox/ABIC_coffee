@@ -1,17 +1,17 @@
-CREATE TABLE cafes (
+CREATE TABLE coffee (
     "id" INTEGER PRIMARY KEY,
-    "empresa" TEXT,
-    "estado" TEXT,
-    "produto" TEXT UNIQUE,
-    "tipo" TEXT,
-    "categoria" TEXT
+    "company" TEXT,
+    "state" TEXT,
+    "product" TEXT UNIQUE,
+    "type" TEXT,
+    "category" TEXT
 );
 
 CREATE TABLE temp (
-    "empresa" TEXT,
-    "estado" TEXT,
-    "produto" TEXT,
-    "tipo" TEXT,
-    "certificacao" TEXT,
-    "categoria" TEXT
+    "company" TEXT,
+    "state" TEXT,
+    "product" TEXT,
+    "type" TEXT,
+    "certification" TEXT,
+    "category" TEXT
 );
