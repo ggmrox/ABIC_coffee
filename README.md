@@ -39,5 +39,5 @@ To import it into SQLite, save it as CSV and:
 ```sql
 .mode csv
 .separator ";"
-.import '--skip' 1 ProdutosAutorizadosABIC.csv temp
+.import --skip 1 ProdutosAutorizadosABIC.csv temp
 
